@@ -38,6 +38,10 @@ dependencies {
 
 	// Hibernate Validator (구현체)
 	implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+	//spring security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
 }
 
 tasks.named('test') {
